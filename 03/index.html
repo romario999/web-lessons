@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="03.css">
+</head>
+<body>
+    <h1> Основні властивості css для роботи з текстом </h1>
+    <h2> Властивість font-size </h2>
+    <p> Властивість <span class="my-class">font-size</span> змінює розмір шрифта. </p>
+    <p> Розмір шрифту задається за допомогою значення та одиниць виміру (<span class="my-class">em</span>, <span class="my-class">
+    px</span>, <span class="my-class">pt</span>, <span class="my-class">%</span>) </p>
+    <h3> Синтаксис: </h3>
+    <p class="my-class2"> CSS </p>
+    <div>
+        <p> <pre class="my-class3">p{
+   font-size: 20px;
+  } </pre> </p>
+    </div>
+    <p class="my-class2"> HTML </p>
+    <div>
+        <p> <pre class="my-class3">   &lt;p&gt;Hello world!&lt;/p&gt; </pre> </p>
+    </div>
+    <h3> Результат: </h3>
+    <div> 
+        <p style="color: #666"> Hello, world! </p>
+   </div>
+   <h2> Властивість font-weight </h2>
+   <p> Властивість <span class="my-class">font-weight</span> встановлює насиченість шрифту. </p>
+   <p> Може приймати наступні значення: </p>
+   <p> <ul>
+       <li> <span class="my-class">normal</span> - нормальна насиченість, те саме, що і 400 </li>
+       <li> <span class="my-class">bold</span> - напівжирний текст, те саме, що і 700 </li>
+       <li> <span class="my-class">lighter</span> - змінює насиченість відносно батьківського стилю в меншу сторону </li>
+       <li> <span class="my-class">bolder</span> - змінює насиченість відносно батьківського стилю в більшу сторону </li>
+       <li> <span class="my-class">100</span>,<span class="my-class">200</span>,<span class="my-class">300</span>,<span class="my-class">
+       400</span>,<span class="my-class">500</span>,<span class="my-class">600</span>,<span class="my-class">700</span>,
+       <span class="my-class">800</span>,<span class="my-class">900</span> - цифрові значення насиченості, які відрізняються від стандартних </li>
+   </ul> </p>
+   <h3> Синтаксис: </h3>
+   <p class="my-class2"> CSS </p>
+   <div>
+       <p>
+           <pre class="my-class3">
+    .bold{
+    font-weight:bold;
+    }
+    .thin{
+        font-weight: 100;
+    }
+    .max{
+        font-weight: 900;
+    } </pre> </p> </div>
+   <p class="my-class2"> HTML </p>
+   <div>
+       <p>
+           <pre class="my-class3">
+    &lt;p&gt;
+        &lt;span class="bold"&gt; Напівжирний текст &lt;/span&gt;
+        &lt;span class="thin"&gt; Найтонший текст &lt;/span&gt;
+        &lt;span class="max"&gt; Найтовщий текст &lt;/span&gt;   
+    &lt;/p&gt;
+           </pre>
+       </p>
+   </div>
+   <h3> Результат: </h3>
+   <div>  
+       <p> <span class="bold">Напівжирний текст</span>, <span class="thin">найтонший текст</span>, <span class="max">найтовший текст</span>. </p> 
+    </div>
+</body>
+</html>
