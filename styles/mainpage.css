@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap%27');
+*{
+    font-family: 'Roboto' , sans-serif;
+    margin:0;
+}
+footer, main, header{
+    margin: auto;
+    box-sizing: border-box;
+}
+header{
+    background-color:honeydew;
+    height: 300px;
+}
+.my-photo{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+}
+h1{
+    color: black;
+    text-align: center;
+    font-weight: 700px;
+    margin-top: 20px;
+}
+h2{
+    color: black;
+    font-weight: 400px;
+    text-align: center;
+}
+main{
+    background: url(/img1/vAp1SG.jpg);
+    background-color: #F4F4F4;
+    padding: 36px 100px 36px 100px;
+
+}
+.about-me{
+    background-color:#F4F4F4;
+    margin: auto;
+    border-radius: 5px;
+}
+h3{
+    font-size: 22px;
+    margin-left: 22px;
+    padding-top: 20px;
+}
+.text{
+    text-align: justify;
+    text-indent: 75px;
+    padding-bottom: 10px;
+}
+.homeworks{
+    margin-top:52px;
+    background-color: #F4F4F4;
+    border-radius: 5px;
+   
+}
+li{
+   margin-left: 60px;
+    padding-bottom: 10px; 
+    border-radius: 5px;
+}
+.practic-works{
+    margin-top:52px;
+    background-color:white;
+    border-radius: 5px;
+}
+.contact{
+    margin-top:52px;
+    background-color:white;
+    border-radius: 5px;
+}
