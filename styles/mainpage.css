@@ -31,13 +31,13 @@ h2{
     text-align: center;
 }
 main{
-    background: url(img1/vAp1SG.jpg);
+    background: url(/img1/vAp1SG.jpg);
     background-color: white;
     padding: 36px 100px 36px 100px;
 
 }
 .about-me{
-    background-color:white;
+    background-color:#F4F4F4;
     margin: auto;
     border-radius: 5px;
 }
@@ -64,11 +64,11 @@ li{
 }
 .practic-works{
     margin-top:52px;
-    background-color:white;
+    background-color:#F4F4F4;
     border-radius: 5px;
 }
 .contact{
     margin-top:52px;
-    background-color:white;
+    background-color:#F4F4F4;
     border-radius: 5px;
 }
