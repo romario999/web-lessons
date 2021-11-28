@@ -31,13 +31,13 @@ h2{
     text-align: center;
 }
 main{
-    background: url(/img1/vAp1SG.jpg);
-    background-color: #F4F4F4;
+    background: url(img1/vAp1SG.jpg);
+    background-color: white;
     padding: 36px 100px 36px 100px;
 
 }
 .about-me{
-    background-color:#F4F4F4;
+    background-color:white;
     margin: auto;
     border-radius: 5px;
 }
