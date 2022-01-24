@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/07/styles.css">
+</head>
+<body>
+    <h1> Анкета відвідувача ресторану </h1>
+    <form action="#">
+        
+        <fieldset>
+            <legend> Контакти </legend>
+            <label for="name"> <div class="text">  Ім&#8217;я </div> <span class="form1"> <input type=”text” id="name"> </span> </label> <br> <br>
+            <label for="telephone"> <div class="text"> Телефон </div> <span class="form1"> <input type=”tel” id="telephone"> </span> </label> <br> <br>
+            <label for="email"> <div class="text"> Email </div> <span class="form1"> <input type=”email” id="email"> </span> </label> <br> <br>
+            <label for="date"> <div class="text"> Дата відвідування </div> <span class="form1"> <input type="date" id="date"> </span> </label>
+        </fieldset>
+
+        <fieldset>
+            <legend> Персональна інформація </legend>
+            <label for="number"> <div class="text">Вік </div> <span class="form1"> <input type=”number” min=”1” max=”120” step=”1”> </span> </label> <br> <br>
+            <label for="kitchen"> <div class="text"> Улюблена кухня </div>
+                <span class="form1">  <select name="kitchen" id="">
+                <option value="1"> Італійська </option>
+                <option value="2"> Російська </option>
+                <option value="3"> Англійська </option>
+                <option value="4"> Українська </option>
+            </select>   </span> 
+            </label> <br> <br>
+            <label for="wantMenu"> <div class="text">Які страви ви хотіли би бачити в нашому меню? </div> <span class="form1"><textarea name="wantMenu" id="" cols="22" rows="5"></textarea> </span> </label>
+        </fieldset>
+
+        <fieldset>
+            <legend> Оцінка ресторану </legend>
+            <label for="radio"> <div class="text"> Як ви дізналися про наш ресторан? </div> <br>
+           <span class="form2"> <input type="radio" value="1"> Поруч з будинком\роботою <br> </span>
+           <span class="form2"> <input type="radio" value="2"> Реклама <br> </span>
+           <span class="form2"> <input type="radio" value="3"> Порадили знайомі <br> </span>
+           <span class="form2"> <input type="radio" value="4"> Пошук в мережі інтернет <br> </span>
+           <span class="form2"> <input type="radio" value="5"> Інше <br> <br> </span>
+            </label> 
+            <label for="radio"> <div class="text"> Чи будете ви рекомендувати наш ресторан знайомим? </div> <br>
+                <span class="form2"> <input type="radio" value="1" checked> Так <br> </span>
+                <span class="form2"></span> <input type="radio" value="2"> Ні <br> </span>
+            </label>
+        </fieldset>
+        <br> 
+        <button name="send"> Відправити </button>
+    </form>
+</body>
+</html>

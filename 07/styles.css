@@ -1,0 +1,48 @@
+* {
+    font-family: 'Roboto' , sans-serif;
+    
+}
+h1{
+    margin-left: 100px;
+    color: #97594b;
+    font-weight: 700;
+    font-size: 30px;
+}
+fieldset{
+    width: 1000px;
+    margin-left: 100px;
+    margin-top: 25px;
+    background-color: #e2fafd;
+}
+.form1{
+    margin-left: 450px;
+}
+.text{
+    padding-left: 40px;
+    width: 410px;
+    height: 0px;
+    color: #97594b;
+}
+.form2{
+    margin-left: 40px;
+}
+
+legend{
+    color: #00cfd3;
+}
+button{
+    margin-left: 100px;
+    background-color: #e2fafd;
+    color: #97594b;
+    height: 35px;
+    border-radius: 6px;
+}
+select{
+    width: 177px;
+}
+#date{
+    width: 171px;
+}
+
+
+
